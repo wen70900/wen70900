@@ -3,6 +3,10 @@
 body{
     background-color: blanchedalmond;
     color: blue;
+    background-color: #f0dbc1;
+    background-image:url(img/bg.png);
+    background-repeat: repeat-x; 
+    background-size: 100px 220px;   
 }
 h1{
     width: 300px;
@@ -16,7 +20,7 @@ h1{
     line-height: 1.5;
 }
 main{
-        background-color: rgb(236, 225, 225);
+        background-color: rgb(255, 252, 252);
         width: 80%;
         margin: 0px auto;
         padding: 40px 80px;
@@ -38,4 +42,69 @@ h1,header,nav,footer{
 .div_text_shadow
 {
 text-shadow: 2px 2px 3px #333333;    
+}
+.img-round{
+    border-radius: 50%;
+}
+section + section{
+    margin-top: 80px;
+}
+a{
+    color:#df4839;
+}
+a:hover{
+    color: #ff705b;
+    text-decoration: none; 
+}
+.menu li{
+    list-style-type: none;
+    display:inline-block;
+    width: 180px;
+    margin:0 10px;
+}
+.menu a{
+    display:block;
+    padding: 10px;
+    background: #6fbb9a;
+    border-radius: 8px;
+    color:#fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #90ddbb;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+    
+}
+.more{
+    text-align: right;
+}
+.more::after{
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.h{
+    border-radius: 5px 0 0 5px;    
+}
+.h-sub{
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset; 
 }
