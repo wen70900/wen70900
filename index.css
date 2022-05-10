@@ -1,0 +1,20 @@
+nav{
+    background-color: aquamarine;
+    text-align: right;
+}
+
+nav li{
+    list-style-type:none;
+    display:inline-block;
+  }
+  nav li a{
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+      color: burlywood;
+  }
+  nav li a:hover{
+      background-color: darkorange;
+      color: rgb(43, 156, 208);
+      transition: backgroun-color 2s linear,color 2s ease-in-out;
+  }
